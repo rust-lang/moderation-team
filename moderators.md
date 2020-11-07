@@ -10,7 +10,7 @@ Discord:
  - [sgrif](https://github.com/sgrif)
  - [pietroalbini](https://github.com/pietroalbini)
  - [liv](https://github.com/oe)
- - [Khionu](https://github.com/Discord)
+ - [Khionu](https://github.com/khionu)
 
 
 Furthermore, individual venues (e.g. specific discord channels) may have other people with moderation rights, like team members. They too follow the [venue moderation policy](./policies/venue-mod.md).
