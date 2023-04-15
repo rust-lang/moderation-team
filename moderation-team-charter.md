@@ -6,23 +6,23 @@ Going forward, we propose to define the Moderation Team Charter to clearly spell
 
 # Mission
 
-To ensure that Rust Project is, and continues to be, a welcoming place for everyone. We aim to support individuals and teams in creating a healthy and collaborative environment that keeps contributors interacting in a productive and respectful way.
+To ensure that the Rust Project is, and continues to be, a welcoming place for everyone. We aim to support individuals and teams in creating a healthy and collaborative environment that keeps contributors interacting in a productive and respectful way.
 
-## How does the Moderation Team help achieve the goals of the Rust Project?
+## How does the Moderation team help achieve the goals of the Rust Project?
 
 * Facilitation: Help lead discussions on a topics that may require a third party facilitator.
 * Intervention: Serve as mediators in cases where disputes among individuals have risen to a level that intervention is deemed necessary.
 
 # Purview
 
-* [[D]] Establishing moderation policy for the entire project
-    * The code of conduct
-* [[D]] The Moderation team repo
-* [[D]] The Moderation team zulip streams
-* [[A]] Moderation of all official Rust venues
-* [[R]] Conflict transformation and mediation
+* [[D]] Establishing moderation policy for the entire project.
+    * The code of conduct.
+* [[D]] The Moderation team repository.
+* [[D]] The Moderation team Zulip streams.
+* [[A]] Moderation of all official Rust venues.
+* [[R]] Conflict transformation and mediation.
 * [[R]] Limiting individual participation within the project.
-* [[C]] Reviewing proposed new team members
+* [[C]] Reviewing proposed new team members.
 
 ## How does this group make decisions?
 
@@ -52,10 +52,10 @@ The Moderation team uses a role based system to assign specific responsibilities
 ### Secretary
 
 * Responsible for
-  * Taking notes in team meetings
-  * Management of team documentation and policy
-  * Tracking terms and timelines for policy items and bringing those items to the team for discussion as needed
-  * If the secretary is not available for a meeting, any participant in the meeting may volunteer to take notes.
+  * Taking notes in team meetings.
+    * If the secretary is not available for a meeting, any participant in the meeting may volunteer to take notes.
+  * Management of team documentation and policy.
+  * Tracking terms and timelines for policy items and bringing those items to the team for discussion as needed.
 
 ### Facilitator
 
@@ -80,13 +80,13 @@ Team members are expected to:
 
 ## How is team membership managed?
 
-All memberships on the Moderation team and or moderation subteams are contingent on review of the project members past interactions and behavior. 
+All memberships on the Moderation team and or Moderation subteams are contingent on review of the project members past interactions and behavior. 
 
 **People join the team by**: participating as a trusted member of the Rust Project.
 
 The following are criteria for being a moderator:
 
-* You are an existing member of a moderation subteam or you are an existing member of another Rust Project team.
+* You are an existing member of a Moderation subteam or you are an existing member of another Rust Project team.
 * All members of the top level Moderation team, including the contingent moderators, consent to you joining the team. 
 
 If you are interested in joining the Moderation team please reach out to any member of the Moderation team or the council.
