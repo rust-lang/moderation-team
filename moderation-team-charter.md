@@ -1,32 +1,20 @@
 # Rust Moderation Team Charter
 
-Up to this point the Moderation team has existed largely without well defined structure and operations.
-
-Going forward, we propose to define the Moderation Team Charter to clearly spell out its purview, existing policy, and procedures. Additionally we plan to expand the responsibilities of the Moderation team to include aspects of collaboration.
+This document attempts to define the Moderation Team Charter to clearly spell out its purview, existing policy, and procedures. 
 
 # Mission
 
 To ensure that the Rust Project is, and continues to be, a welcoming place for everyone. We aim to support individuals and teams in creating a healthy and collaborative environment that keeps contributors interacting in a productive and respectful way.
-
-## How does the Moderation team help achieve the goals of the Rust Project?
-
-* Facilitation: Help lead discussions on a topics that may require a third party facilitator.
-* Intervention: Serve as mediators in cases where disputes among individuals have risen to a level that intervention is deemed necessary.
 
 # Purview
 
 * [[D]] Establishing moderation policy for the entire project.
     * The code of conduct.
 * [[D]] The Moderation team repository.
-* [[D]] The Moderation team Zulip streams.
 * [[A]] Moderation of all official Rust venues.
 * [[R]] Conflict transformation and mediation.
 * [[R]] Limiting individual participation within the project.
 * [[C]] Reviewing proposed new team members.
-
-## How does this group make decisions?
-
-This team uses a consent based decision making process where consent is reached by all current team members and work is delegated to individuals.
 
 ## What specifically is outside Moderation purview?
 
@@ -35,39 +23,13 @@ The following are outside of moderation purview
 * The [unofficial rust-lang community discord].
 * Other platforms outside of the official venues.
 
-# Team Processes
-
-The Moderation team uses a role based system to assign specific responsibilities to individual members. The following roles exist on the team:
-
-### Team Lead
-
-* Defined in the [team lead role description document].
-* The Team Lead role has a 1 year term limit and is decided upon by the team by consent.
-* The same person may fill the role for multiple consecutive terms if the team feels they are still the best person for the position. 
-
 ### Council Representative
 
 * Defined in the [council representative role description document].
 
-### Secretary
-
-* Responsible for
-  * Taking notes in team meetings.
-    * If the secretary is not available for a meeting, any participant in the meeting may volunteer to take notes.
-  * Management of team documentation and policy.
-  * Tracking terms and timelines for policy items and bringing those items to the team for discussion as needed.
-
-### Facilitator
-
-* Ensures team meetings stay on track and that all meetings have an agenda.
-    
-The Facilitator and Secretary roles have no term limits and can be rotated between team members as necessary. 
-
 ## Contact Point
 
 In general if you wish to contact the Moderation team you should email [mods@rust-lang.org].
-
-The point of contact for the state of the team is: the team lead specified on [https://github.com/rust-lang/team]. They are the authoritative ‘switchboard’ for meta information about the team, and are the primary owner of this charter.
 
 ## Team Membership
 
@@ -87,7 +49,7 @@ All memberships on the Moderation team and or Moderation subteams are contingent
 The following are criteria for being a moderator:
 
 * You are an existing member of a Moderation subteam or you are an existing member of another Rust Project team.
-* All members of the top level Moderation team, including the contingent moderators, consent to you joining the team. 
+* All members of the top level Moderation team consent to you joining the team. 
 
 If you are interested in joining the Moderation team please reach out to any member of the Moderation team or the council.
 
@@ -99,9 +61,7 @@ The Moderation team has a separate set of standby team members known as continge
 
 ## Where does this team work?
 
-This team works across all project spaces. This team uses a separate Zulip instance for communicating with team members and subteam members, though much of the communication happens in direct messages on various platforms.
-
-This team has weekly internal sync meetings. Meeting minutes are recorded but kept private.
+This team works across all project spaces. 
 
 [D]: ../../common/darci.md#decision-maker
 [A]: ../../common/darci.md#accountable-for-results
@@ -111,5 +71,4 @@ This team has weekly internal sync meetings. Meeting minutes are recorded but ke
 [unofficial rust-lang community discord]: https://discord.gg/rust-lang-community
 [mods@rust-lang.org]: mailto:mods@rust-lang.org
 [https://github.com/rust-lang/team]: https://github.com/rust-lang/team
-[team lead role description document]: https://hackmd.io/@rust-lang-governance-wg/rkRNINMZ2
 [council representative role description document]:  https://hackmd.io/vYh6LE4jRC-4phNjHfYuCA?view
