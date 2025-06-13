@@ -29,16 +29,25 @@ The following are outside of moderation purview
 
 ## Contact Point
 
-In general if you wish to contact the Moderation team you should email [mods@rust-lang.org].
+In general if you wish to contact the Moderation team you should email [mods@rust-lang.org] or ping @rust-lang/mods on github.
 
 ## Team Membership
+
+### Mod team
 
 Team members are expected to:
 
 * Agree with and exemplify Moderation team principles.
-* Participate in team activities and responsibilities.
 * Handle small scale conflicts as they arise on the various venues.
 * Provide guidance and mediation for conflicts.
+
+### Venue mods subteam
+
+Team members are expected to:
+
+* Agree with and exemplify Moderation team principles.
+* Handle small scale conflicts as they arise on the various venues.
+* Hand off more complex or long term conflicts to the main mod team.
 
 ## How is team membership managed?
 
@@ -49,7 +58,7 @@ All memberships on the Moderation team and or Moderation subteams are contingent
 The following are criteria for being a moderator:
 
 * You are an existing member of a Moderation subteam or you are an existing member of another Rust Project team.
-* All members of the top level Moderation team consent to you joining the team. 
+* All members of the top level Moderation team consent to you joining the team.
 
 If you are interested in joining the Moderation team please reach out to any member of the Moderation team or the council.
 
