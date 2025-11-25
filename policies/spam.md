@@ -77,7 +77,7 @@ Copy paste the following when you see a concerning situation. Posting it require
 ### Help message
 
 ```!
-Hi. This is the moderation team of the Rust project. The comments left by you are significantly too verbose. While being detailed is good, please be respectful of reviewer time and avoid verbose text.
+Hi. This is the moderation team of the Rust project. The comments left by you are significantly too verbose, likely because an LLVM was used. While being detailed is good, please be respectful of reviewer time and avoid verbose text.
 
 This is *not* a moderation warning. You are free to keep contributing just as you were before. We just ask you to keep your communication concise.
 
@@ -89,7 +89,7 @@ If you are unsure how concise to make your message, you can include the full mes
 ### Warning message and close PR
 
 ```!
-Hi. This is the moderation team of the Rust project. The comments left by you are significantly too verbose. While being detailed is good, please be respectful of reviewer time and avoid verbose text that mostly doesn't convey any useful content.
+Hi. This is the moderation team of the Rust project. The comments left by you are significantly too verbos, likely because an LLVM was used. While being detailed is good, please be respectful of reviewer time and avoid verbose text that mostly doesn't convey any useful content.
 
 We are closing and locking this PR, but you're welcome to reopen this contribution in a new PR with more concise wording. It is perfectly fine to just leave a one line comment and bullet points otherwise if this is easier for you.
 
