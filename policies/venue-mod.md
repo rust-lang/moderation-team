@@ -34,6 +34,6 @@ Permanent bans (for anything but outright spam) require the approval of the mode
 Longterm moderation issues (e.g. persistent trolls) should be brought up with the mod team. We will also communicate permabans with you (and try to involve you in longterm moderation discussions specific to your venue).
 
  [moderation team]: http://rust-lang.org/team.html
- [coc-mod]: https://www.rust-lang.org/en-US/conduct.html#moderation
- [code of conduct]: https://www.rust-lang.org/en-US/conduct.html
+ [coc-mod]: https://rust-lang.org/policies/code-of-conduct#moderation
+ [code of conduct]: https://rust-lang.org/policies/code-of-conduct
  [governance rfc]: https://github.com/rust-lang/rfcs/blob/master/text/1068-rust-governance.md#initial-plan-for-moderation
