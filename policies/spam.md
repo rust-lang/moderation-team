@@ -31,6 +31,9 @@ Reviewer time is one of the most valuable resources we have. Unfortunately we ha
 
 To ensure reviewers and contributors have a good experience we need to prevent spam, identity farming and unintentionally verbose contributions from wasting time.
 
+Since a ban is something easy to rescind, we are opting to ban people more quickly and require them to reach out to moderation.
+This inverts the effort imbalance by requiring the user to send us an email, and moves the discussion private, thus not further wasting time of all the other community members who'd otherwise get github or zulip notifications.
+
 ## Analyzing the situation
 
 If you see a suspicious contribution, first check the user's profile for previous contributions (either in [rustlang](https://github.com/search?q=org%3Arust-lang+commenter%3Aapiraino) or [anywhere](https://github.com/search?q=commenter%3Aapiraino)).
@@ -60,38 +63,30 @@ While most private profiles are spam bots trying to hide what they are, there ar
 
 It is very hard to distinguish full automation of contributions compared with a user actually doing the contributions and using AI to publish them. We assume the latter, and will thus
 
-1. Leave the warning message
-2. Inform other mods in the mods Zulip stream
+1. Leave the insta ban message
+2. Ban the user
+3. Inform other mods in the mods Zulip stream
+
+This inverts the effort imbalance by requiring the user to first reach out to moderation in order to be able to participate again.
+We do not expect moderation to be unduly spammed by frivulous requests, and in either case that is better than everyone getting publicly spammed.
 
 ### One off verbose/confusing contrib
 
 This happens, maybe even AI was involved by someone getting their bearings with it.
 
-1. Leave the help message
+1. Leave the warning message
 2. Inform the other mods, so we have an internal thread tracking this user in case it becomes a repetition
 
 ## Copy pastable responses
 
 Copy paste the following when you see a concerning situation. Posting it requires no check-in with other mods, but they need to be informed in the mods Zulip stream
 
-### Help message
-
-```!
-Hi. This is the moderation team of the Rust project. The comments left by you are significantly too verbose, likely because an LLM was used. While being detailed is good, please be respectful of reviewer time and avoid verbose text.
-
-This is *not* a moderation warning. You are free to keep contributing just as you were before. We just ask you to keep your communication concise.
-
-If you would like some help with that, please ensure you're familiar with our [contribution guidelines](https://forge.rust-lang.org/how-to-start-contributing.html) and feel free to either reach out to moderation or ask on the [Zulip stream for general help](https://rust-lang.zulipchat.com/#narrow/channel/122651-general/topic/Feedback.20on.20github.20PR.20UI.2FUX.20changes/with/526008053) from other contributors.
-
-If you are unsure how concise to make your message, you can include the full message in a `<details>` tag and let the reviewer know that some information may be missing from the concise message.
-```
-
 ### Warning message and close PR
 
 ```!
-Hi. This is the moderation team of the Rust project. The comments left by you are significantly too verbose, likely because an LLM was used. While being detailed is good, please be respectful of reviewer time and avoid verbose text that mostly doesn't convey any useful content.
+Hi. This is the moderation team of the Rust project. It looks like you used an LLM without reviewing its output sufficiently. It brings no value to us if you provide us with LLM output that we could just as well generate ourselves.
 
-We are closing and locking this PR, but you're welcome to reopen this contribution in a new PR with more concise wording. It is perfectly fine to just leave a one line comment and bullet points otherwise if this is easier for you.
+We are closing and locking this PR, but you're welcome to reopen create a new PR with content you created yourself. It is perfectly fine to just leave a one line comment and bullet points otherwise if this is easier for you.
 
 If you would like some help with that, please ensure you're familiar with our [contribution guidelines](https://forge.rust-lang.org/how-to-start-contributing.html) and feel free to either reach out to moderation or ask on the [Zulip stream for general help](https://rust-lang.zulipchat.com/#narrow/channel/122651-general/topic/Feedback.20on.20github.20PR.20UI.2FUX.20changes/with/526008053) from other contributors.
 
@@ -103,7 +98,7 @@ Note that this is a moderation warning. Repetitions of such overly verbose messa
 ### Insta ban message and close PR
 
 ```!
-Hi. This is the moderation team of the Rust project. Your interaction with the Rust project has been identified as not constructive or malicious. This goes against our [Code of Conduct](https://github.com/rust-lang/compiler-team/blob/master/CODE_OF_CONDUCT.md).
+Hi. This is the moderation team of the Rust project. Your interaction with the Rust project has been identified as spammy, not constructive, or malicious. This goes against our [Code of Conduct](https://github.com/rust-lang/compiler-team/blob/master/CODE_OF_CONDUCT.md).
 
-Considering the large amount of comments from you within a short period of time, we are banning you as per our policy. You can contact the moderation team to discuss and possibly reconsider your ban.
+We are thus banning you as per our policy. You can contact the moderation team to discuss and possibly reconsider your ban.
 ```
