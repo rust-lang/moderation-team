@@ -86,7 +86,7 @@ Copy paste the following when you see a concerning situation. Posting it require
 ```!
 Hi. This is the moderation team of the Rust project. It looks like you used an LLM without reviewing its output sufficiently. It brings no value to us if you provide us with LLM output that we could just as well generate ourselves.
 
-We are closing and locking this PR, but you're welcome to reopen create a new PR with content you created yourself. It is perfectly fine to just leave a one line comment and bullet points otherwise if this is easier for you.
+We are closing and locking this PR, but you're welcome to create a new PR with content you created yourself. It is perfectly fine to just leave a one line comment and bullet points otherwise if this is easier for you.
 
 If you would like some help with that, please ensure you're familiar with our [contribution guidelines](https://forge.rust-lang.org/how-to-start-contributing.html) and feel free to either reach out to moderation or ask on the [Zulip stream for general help](https://rust-lang.zulipchat.com/#narrow/channel/122651-general/topic/Feedback.20on.20github.20PR.20UI.2FUX.20changes/with/526008053) from other contributors.
 
