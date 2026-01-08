@@ -84,7 +84,9 @@ Copy paste the following when you see a concerning situation. Posting it require
 ### Warning message and close PR
 
 ```!
-Hi. This is the moderation team of the Rust project. It looks like you used an LLM without reviewing its output sufficiently. It brings no value to us if you provide us with LLM output that we could just as well generate ourselves.
+Hi. This is the moderation team of the Rust project. It looks like you used an LLM without reviewing its output sufficiently.
+At that point we become the reviewer of the LLM output, with you relaying our reviews back to the LLM as a proxy.
+That is a lot of work without a clear benefit, while being also frustrating for reviewers.
 
 We are closing and locking this PR, but you're welcome to create a new PR with content you created yourself. It is perfectly fine to just leave a one line comment and bullet points otherwise if this is easier for you.
 
@@ -92,7 +94,7 @@ If you would like some help with that, please ensure you're familiar with our [c
 
 If you are unsure how concise to make your message, you can include the full message in a `<details>` tag and let the reviewer know that some information may be missing from the concise message.
 
-Note that this is a moderation warning. Repetitions of such overly verbose messages will result in a ban from contributing to our project. You can contact the moderation team to discuss your warning.
+Note that this is a moderation warning. Repetitions of such comments or contributions will result in a ban from our project. You can contact the moderation team to discuss your warning.
 ```
 
 ### Insta ban message and close PR
